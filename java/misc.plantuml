@@ -1,0 +1,5 @@
+@startmindmap
+* flatmap v/s map
+** flatmap is used to generate a flat/linear stream of a stream of collections.
+
+@endmindmap

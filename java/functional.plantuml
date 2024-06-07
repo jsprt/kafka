@@ -1,0 +1,9 @@
+@startmindmap
+* functional programming
+** pure functions
+*** No state
+*** No side effects
+*** immutable variables
+*** recurssion over looping
+** higher order functions
+@endmindmap

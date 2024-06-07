@@ -1,0 +1,24 @@
+@startmindmap
+* schema 
+** data format
+*** JSON
+**** renaming is breaking change
+*** Protobuf
+**** renaming is not breaking change
+
+* compatibility
+** forwards
+*** old clients can read new schema
+** backward
+*** new clients can read new version of schema
+** full
+
+* Confluent schema registry
+** broadcast schemas
+*** validating compatibility
+** strategies
+*** TopicNameStrategy
+*** RecordNameStrtegy
+*** TopicRecordNameStrategy
+
+@endmindmap

@@ -1,0 +1,9 @@
+@startmindmap
+* fast
+** Sequential IO
+*** Log based storage system
+**** Fast read and write
+*** Disadvantage - Requires background compaction to keep the size of segments in check
+** Zero Copy to read data from storage and put on network buffer
+
+@endmindmap

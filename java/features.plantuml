@@ -1,0 +1,27 @@
+@startmindmap
+** introduced as JEP
+*** preview
+*** experimental
+*** GA
+
+* features
+** swtich 
+*** statement to swtich expression
+*** pattern matching
+** interface
+*** default methods for backwards compatibilty
+** try
+*** with resource block, no explity close required, resources should implement AutoClose Interface
+** Project Jigsaw
+*** Compatibility issues with frameworks
+** Record class
+*** immutable DTOs
+** Strings
+*** Interpolation
+*** Text block
+** Instanceof
+*** no need of typecast after
+** non blocking IO
+
+
+@endmindmap

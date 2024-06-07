@@ -1,0 +1,16 @@
+@startmindmap
+* when to use
+** complex domain logic
+** identify domain boundaries
+** identify domain and integration events
+** size microservices
+
+* when not to use
+** simple domain logic
+** CRUD applications
+** Team is not buying in into extra cost, time investment
+** performance critical systems
+** Lack of domain experts
+* strategic patterns
+* tactical patterns
+@endmindmap

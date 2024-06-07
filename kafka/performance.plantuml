@@ -1,0 +1,13 @@
+@startmindmap
+* perforamnce tuning
+** Throughput V/s Latency
+*** Partition
+*** Buffer size
+* CAP theorem
+** Partitioning in inevitable
+** Choose b/w Consisitency or Availability - PA or PC
+
+** Availabilty V/s Consistency
+*** Replicas
+*** Acks
+@endmindmap

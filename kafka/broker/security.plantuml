@@ -1,0 +1,27 @@
+@startmindmap
+!theme toy
+* authentication
+** SSL
+*** mutul TLS
+**** easiest 
+**** requires well known certificate authority
+**_ organisation has SASL based IDP
+*** SASL
+**** GSSAPI kerberos
+***** e.g active directory
+***** e.g LDAP
+**** plain
+* authorization
+** ACLs
+*** Principal names, 
+**_ company has roles for users in AD
+*** RBAC
+
+* malicious client behaviour
+** client quotas
+** connection backoff settings.
+
+* recommendations
+
+
+@endmindmap

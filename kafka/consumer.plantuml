@@ -1,0 +1,8 @@
+@startmindmap
+* consumer
+** consumer group
+*** Consumer group coordinator
+*** Leader broker
+** properties
+*** session.timeout.ms
+*** hearbeat.interval.ms

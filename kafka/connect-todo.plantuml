@@ -1,0 +1,19 @@
+@startmindmap
+* what
+** Kafka component used to\n stream data into and out of kafka Cluster
+* why
+** Distributed, scalable, fault tolerant
+** No coding - declarative
+** Monitoring
+*** JMX metrics
+* how
+** internal topics for state management
+*** storage topic
+*** config topic
+*** offset topic
+** Node (server)
+** Worker (Java Process)
+*** runs set of tasks
+** Connector 
+*** defines set of tasks
+@endmindmap

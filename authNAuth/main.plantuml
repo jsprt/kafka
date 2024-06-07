@@ -1,0 +1,19 @@
+@startmindmap
+* authentication
+** SSO
+***_ network(Lan, windows network)
+**** Kerberos
+***** Supersedes NTLM
+***** Uses ticket based authentication
+***** Password authentication is the weekness
+**** OAUTHBearer
+***_ websites
+**** SAML
+***** XML Based
+***** Password authentication is the weekness\nBUT\nMFA aliviates the risk.
+***** OIDC
+***** JSON BASED
+***** sines over SAML, can be used by Mobile apps.
+* authorization
+** OAUTH
+@endmindmap

@@ -1,0 +1,9 @@
+@startmindmap
+* idemptent producer
+
+* transactional producer 
+* producer for durability + 
+* proudcer for low latency
+* monitoring
+
+@endmindmap

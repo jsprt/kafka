@@ -1,0 +1,12 @@
+@startmindmap
+* control header
+** Zookeeper/KRaft
+** Controller brokers
+*** Controller replication
+*** Leader election
+* data plane
+** brokers - replication
+** broker - client requests
+* management control plane
+** CFK operator
+@endmindmap

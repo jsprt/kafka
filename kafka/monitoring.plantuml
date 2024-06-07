@@ -1,0 +1,23 @@
+@startmindmap
+* broker (Kafka Control centre)
+** Brokers online status
+** Cluster Producer throughput
+** Cluster Consumer throughput
+** Consumer Lag 
+
+* broker (Low level JMX metrics)
+** request quota
+** broker re election
+** log level metrics
+** network metrics
+** replication rate
+
+* Producer 
+* Consumer
+** Consumer group metrics
+*** heartbeats
+*** rebalance
+
+
+
+@endmindmap 

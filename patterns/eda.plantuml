@@ -1,0 +1,35 @@
+@startmindmap
+* EDA
+** When to use
+*** Very loosely coupled services 
+*** Scalability
+*** Eventual consistency is acceptable
+*** Event replay is required
+*** Organisaiton is embracing data mesh
+*** Complex domain, Read write models and Scalability needs are different
+**** EDA can solve this with patterns like CQRS and event sourcing
+** When not to use
+*** Dual write problem \n write to DB + emit event \n read from MQ + emit event + source connectors
+**** Solutions
+***** CDC connector from DB
+***** Transaction out box pattern
+***** Listen to yourself
+****** Use two table 
+*** point to point communication is acceptable
+*** when command message is acceptable
+*** Simple domain logic
+*** When Orchestrator pattern is better suited
+*** Sequential workflows
+*** Long running workflows
+*** When cost outweighs benifits
+** Patterns
+*** Strangler Fig
+*** Branch by Abstraction
+*** Event carried state transfer
+**** Event + State of the resource (EDA + REST)
+*** transaction outbox pattern
+** Design
+*** DDD
+*** Event Mesh
+
+@endmindmap
